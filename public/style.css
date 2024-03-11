@@ -1,0 +1,159 @@
+body {
+  background-color: #222831;
+  margin: 0px;
+  padding: 0px;
+}
+.form {
+  background-color: #31363f;
+  height: 90vh;
+  padding-top: 30px;
+}
+.Title {
+  font-family: "Open-Sans", sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(300deg, #222831, #31363f, #76abae, #eeeeee);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.player {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-family: "Open-Sans", sans-serif;
+}
+
+#playerHeading {
+  display: flex;
+  justify-content: center;
+  font-family: "Open-Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #eeeeee;
+}
+
+#fillIn {
+  background-color: #76abae;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Open-Sans", sans-serif;
+  font-size: 16px;
+  color: #eeeeee;
+  border: 0px solid black;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding-right: 40px;
+}
+
+.allPlayers {
+  font-family: "Open-Sans", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eeeeee;
+}
+
+#pl {
+  font-family: "Open-Sans", sans-serif;
+  padding: 5px;
+}
+
+.button-18 {
+  align-items: center;
+  background-color: #76abae;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.button-18:hover,
+.button-18:focus {
+  background-color: #16437e;
+  color: #ffffff;
+}
+
+.generate {
+  display: flex;
+  justify-content: center;
+  padding-right: 40px;
+}
+
+.first {
+  font-family: "Open-Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 120px;
+  color: #eeeeee;
+}
+
+.second {
+  font-family: "Open-Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 120px;
+  color: #eeeeee;
+}
+
+.fP {
+  font-family: "Open-Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+  padding-right: 65px;
+}
+
+.sP {
+  font-family: "Open-Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+  padding-right: 65px;
+}
+
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  padding-top: 2.5px;
+}
+
